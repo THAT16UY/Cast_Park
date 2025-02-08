@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    username: cast_park
+    password: cast_park
+    url:  jdbc:mysql://localhost:3306/cast_park
+    
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
